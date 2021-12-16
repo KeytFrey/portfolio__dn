@@ -318,7 +318,6 @@ header :after {
   width: 26px;
   height: 26px;
   background: url(../img/icon/Stargray.svg) no-repeat center center/cover;
-  background: url(../img/icon/Stargray.svg) no-repeat center center/cover;
 }
 
 .skillssplide {
@@ -443,14 +442,34 @@ footer {
   margin: auto;
   width: 343px;
 }
-.icon img {
-  width: 40px;
-  height: 40px;
+.icon li {
+  width: 45px;
+  height: 45px;
   cursor: pointer;
 }
-.icon img:hover {
-  background: #828282;
-  border-radius: 5px;
+.icon .icon1 {
+  background: url(../img/icon/in.svg) no-repeat center center/cover;
+}
+.icon .icon1:hover {
+  background: url(../img/icon/ing.svg) no-repeat center center/cover;
+}
+.icon .icon2 {
+  background: url(../img/icon/instagram.svg) no-repeat center center/cover;
+}
+.icon .icon2:hover {
+  background: url(../img/icon/instagramg.svg) no-repeat center center/cover;
+}
+.icon .icon3 {
+  background: url(../img/icon/be.svg) no-repeat center center/cover;
+}
+.icon .icon3:hover {
+  background: url(../img/icon/beg.svg) no-repeat center center/cover;
+}
+.icon .icon4 {
+  background: url(../img/icon/dribbble.svg) no-repeat center center/cover;
+}
+.icon .icon4:hover {
+  background: url(../img/icon/dribbbleg.svg) no-repeat center center/cover;
 }
 .icon .icon__hover:hover {
   border-radius: 13px;
@@ -619,15 +638,35 @@ footer {
   }
 
   .skills-programs {
-    width: 748px;
-    justify-content: center;
+    width: 166px;
+  }
+
+  .skills-programs__inner {
+    width: 480px;
   }
 
   .skillssplide {
+    width: 280px !important;
+  }
+  .skillssplide .splide__track {
+    height: 280px !important;
+  }
+
+  .skillssplide {
+    margin-right: 20px !important;
     position: relative !important;
   }
   .skillssplide .splide__slide {
-    margin: 0 45px !important;
+    width: 280px !important;
+  }
+
+  .skills-programs__star {
+    justify-content: center;
+  }
+
+  .skills-programs__starblack,
+.skills-programs__stargray {
+    margin: 10px;
   }
 
   .portfolio-section {
@@ -783,26 +822,35 @@ footer {
   }
 
   .skills-programs {
-    width: 320px;
-    justify-content: center;
+    width: 166px;
   }
 
   .skills-programs__inner {
-    margin-bottom: 82px;
+    width: 480px;
   }
 
   .skillssplide {
-    width: 320px !important;
+    width: 280px !important;
   }
   .skillssplide .splide__track {
     height: 280px !important;
   }
 
   .skillssplide {
+    margin-right: 20px !important;
     position: relative !important;
   }
   .skillssplide .splide__slide {
-    margin: 35px !important;
+    width: 280px !important;
+  }
+
+  .skills-programs__star {
+    justify-content: center;
+  }
+
+  .skills-programs__starblack,
+.skills-programs__stargray {
+    margin: 10px;
   }
 
   .portfolio-section {

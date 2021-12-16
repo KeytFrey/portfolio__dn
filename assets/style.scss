@@ -355,7 +355,6 @@ header {
     width: 26px;
     height: 26px;
     background: url(../img/icon/Stargray.svg) no-repeat center center / cover;
-    background: url(../img/icon/Stargray.svg) no-repeat center center / cover;
 }
 
 .skillssplide {
@@ -497,14 +496,43 @@ footer {
     margin: auto;
     width: 343px;
 
-    img {
-        width: 40px;
-        height: 40px;
+    li {
+        width: 45px;
+        height: 45px;
         cursor: pointer;
+    }
+
+    .icon1 {
+        background: url(../img/icon/in.svg) no-repeat center center / cover;
 
         &:hover {
-            background: $mopdarkgray;
-            border-radius: 5px;
+            background: url(../img/icon/ing.svg) no-repeat center center / cover;
+        }
+    }
+
+    .icon2 {
+        background: url(../img/icon/instagram.svg) no-repeat center center / cover;
+
+        &:hover {
+            background: url(../img/icon/instagramg.svg) no-repeat center center / cover;
+        }
+    }
+
+
+    .icon3 {
+        background: url(../img/icon/be.svg) no-repeat center center / cover;
+
+        &:hover {
+            background: url(../img/icon/beg.svg) no-repeat center center / cover;
+        }
+    }
+
+
+    .icon4 {
+        background: url(../img/icon/dribbble.svg) no-repeat center center / cover;
+
+        &:hover {
+            background: url(../img/icon/dribbbleg.svg) no-repeat center center / cover;
         }
     }
 
@@ -516,7 +544,9 @@ footer {
         border-radius: 20px;
 
     }
+
 }
+
 
 .footter__greytext {
     padding-top: 40px;
@@ -698,16 +728,37 @@ footer {
     }
 
     .skills-programs {
-        width: 748px;
-        justify-content: center;
+        width: 166px;
+    }
+
+    .skills-programs__inner {
+        width: 480px;
     }
 
     .skillssplide {
+        width: 280px!important;
+
+        .splide__track {
+            height: 280px!important;
+        }
+    }
+
+    .skillssplide {
+        margin-right: 20px!important;
         position: relative!important;
 
         .splide__slide {
-            margin: 0 45px!important;
+            width: 280px!important;
         }
+    }
+
+    .skills-programs__star {
+        justify-content: center;
+    }
+
+    .skills-programs__starblack,
+    .skills-programs__stargray {
+        margin: 10px;
     }
 
 
@@ -877,16 +928,15 @@ footer {
     }
 
     .skills-programs {
-        width: 320px;
-        justify-content: center;
+        width: 166px;
     }
 
     .skills-programs__inner {
-        margin-bottom: 82px;
+        width: 480px;
     }
 
     .skillssplide {
-        width: 320px!important;
+        width: 280px!important;
 
         .splide__track {
             height: 280px!important;
@@ -894,11 +944,21 @@ footer {
     }
 
     .skillssplide {
+        margin-right: 20px!important;
         position: relative!important;
 
         .splide__slide {
-            margin: 35px!important;
+            width: 280px!important;
         }
+    }
+
+    .skills-programs__star {
+        justify-content: center;
+    }
+
+    .skills-programs__starblack,
+    .skills-programs__stargray {
+        margin: 10px;
     }
 
     .portfolio-section {
